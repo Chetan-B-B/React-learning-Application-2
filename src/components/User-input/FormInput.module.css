@@ -1,0 +1,41 @@
+.fromInput {
+  width: 50rem;
+  height: 20rem;
+  margin: auto;
+  margin-top: 3rem;
+  background-color: #ccc;
+}
+
+.fromInput .form-Control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+.fromInput .form-Control .label {
+  display: block;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+.fromInput .form-Control .input {
+  background-color: lavender;
+  border: none;
+  width: 15rem;
+  height: 2rem;
+}
+.fromInput .form-Control .input:focus {
+  background-color: #b0c4de;
+}
+
+.fromInput .form-Control .button {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 5rem;
+  height: 1.5rem;
+  background-color: #fafad2;
+  border: none;
+  cursor: pointer;
+}

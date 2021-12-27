@@ -1,0 +1,13 @@
+.user-info {
+  width: 50rem;
+  height: 20rem;
+  background-color: #ccc;
+  margin: auto;
+  overflow: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.user-info li {
+  list-style: none;
+}
