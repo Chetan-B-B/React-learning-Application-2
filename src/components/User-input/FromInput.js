@@ -65,7 +65,7 @@ const FormInput = (props) => {
           </form>
         </Card>
       }
-      {error && <Overlay errorMsg={error} />}
+      {error && <Overlay seterr={setError} errorMsg={error} />}
     </div>
   );
 };

@@ -10,6 +10,7 @@ const Overlay = (props) => {
         <span
           onClick={() => {
             setClasses(`${styles.overlay} ${styles.hidden}`);
+            props.seterr(undefined);
           }}
           className={styles.close}
         >
